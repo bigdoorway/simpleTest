@@ -6,7 +6,7 @@ public class User implements Serializable {
 
     private String uName;
 
-    private int age;
+    private int a;
 
     public String getuName() {
         return uName;
