@@ -6,6 +6,8 @@ public class User implements Serializable {
 
     private String uName;
 
+    private int age;
+
     public String getuName() {
         return uName;
     }
