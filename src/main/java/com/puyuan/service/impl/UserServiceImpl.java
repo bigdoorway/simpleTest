@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService{
         return userMapper.findOne(uid);
     }
 
-    @Override
+
     public void a() {
 
     }
