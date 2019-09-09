@@ -6,4 +6,5 @@ public interface UserService {
     public User findOne(String uuid);
 
     public void me();
+    public void a();
 }
