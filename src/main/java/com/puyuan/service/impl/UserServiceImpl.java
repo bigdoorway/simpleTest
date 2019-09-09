@@ -17,4 +17,9 @@ public class UserServiceImpl implements UserService{
         System.out.println("Service");
         return userMapper.findOne(uid);
     }
+
+    @Override
+    public void a() {
+
+    }
 }
