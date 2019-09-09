@@ -1,7 +1,10 @@
 package com.puyuan.test;
 
 interface Demo1 {
-    public final int NUM = 0;
+    // 1.7之前
+    public static final int NUM = 0;
 
-    public abstract void method();
+    public abstract int method(int num);
+
+
 }

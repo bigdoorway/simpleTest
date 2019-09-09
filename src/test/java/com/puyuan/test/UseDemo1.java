@@ -1,7 +1,14 @@
 package com.puyuan.test;
 
+import com.alibaba.fastjson.JSON;
+import org.junit.Test;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class UseDemo1 {
-    public static void main(String[] args) {
-        System.out.println(Demo1.NUM);
+    @Test
+    public void me() {
+
     }
 }
