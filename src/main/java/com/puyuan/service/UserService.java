@@ -4,4 +4,6 @@ import com.puyuan.pojo.User;
 
 public interface UserService {
     public User findOne(String uuid);
+
+    public void me();
 }
